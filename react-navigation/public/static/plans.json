@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "name": "Globoplay + Deezer" ,
+        "plan": "Plano Anual 12x",
+        "price": "R$ 19.90",
+        "images": "static/images/globoplay.png"
+    },
+
+    {
+        "id": "2",
+        "name": "Globoplay + Disney+",
+        "plan": "Plano Anual 12x",
+        "price": "R$ 37.90",
+        "images": "static/images/disney.png"
+    },
+
+    {
+        "id": "3",
+        "name": "Globoplay + canais ao vivo e Disney+",
+        "plan": "Plano Anual 12x",
+        "price": "R$ 59.90",
+        "images": "static/images/disney.png"
+    },
+
+    {
+        "id": "4",
+        "name": "Giga Gloob - App Kids",
+        "plan": "Plano Anual 10x",
+        "price": "R$ 9.90",
+        "images": "https://s3.glbimg.com/v1/AUTH_a468dd4e265e4c40b714860137150800/sales-vitrine-web/sales-vitrine-web/assets/images/heroes/default/gigagloob.png"
+    }
+
+]
