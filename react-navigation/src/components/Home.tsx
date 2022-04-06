@@ -32,10 +32,7 @@ export const Home: React.FC<{}> = (props) => {
     return(
 
         <div className="container">
-            <div className="logo">
-                <img src="" alt="logo" />
-            </div>
-
+          
             <div className="carousel" ref={carousel}>
 
                 {data.map((item) => {

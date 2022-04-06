@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { About } from './components/About';
-import { ComponentWithParam } from './components/ComponentWithParams';
-import { ComponentWithQuery } from './components/ComponentWithQuery';
+import { Films } from './components/films';
+import { Series } from './components/series';
 import { Home } from './components/Home';
 import { Menu } from './components/Menu';
 import { NotFound } from './components/NotFound';
@@ -16,8 +16,8 @@ ReactDOM.render(
       <div className='gradient'>
         <Routes>
           <Route path='/' element={<Home />}></Route>
-          <Route path='/param/:id' element={<ComponentWithParam />}></Route>
-          <Route path='/query' element={<ComponentWithQuery />}></Route>
+          <Route path='/films' element={<Films />}></Route>
+          <Route path='/series' element={<Series />}></Route>
           <Route path='/about' element={<About />}></Route>
           <Route path='*' element={<NotFound />}></Route>
         </Routes>
